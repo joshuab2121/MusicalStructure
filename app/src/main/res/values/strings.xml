@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="music_library">Music Library</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="deck">Deck</string>
+    <string name="now_playing_info">The main activity.  This is where the user can see info about
+        the track playing. Track title will be displayed along with artist and album art. \n\n
+        MediaPlayer and AudioManager classes shall be imported to handle playing sound and managing
+        audio sources and audio output. \n\n
+        Volume is handled by hardware keys using setVolumeControlStream(). \n\n
+        A SeekBar shall be used to keep track of position in song.
+    </string>
+    <string name="equalizer">Equalizer</string>
+    <string name="artist_detail">Artist Detail</string>
+    <string name="artist_detail_info">This screen provides the user some information about the artist
+    they have selected or are listening to through an api </string>
+    <string name="playlist">Playlist</string>
+    <string name="playlist_info">User can view the current playlist, choose to save the playlist, or choose
+        from previously saved playlists.
+    </string>
+    <string name="music_library_info">This screen contains the user\'s music library stored locally
+        on the phone or from a cloud.  User can sort music by artists, albums, songs, or genres.
+        A SearchView will be used to implement a searchable configuration. \n\n
+        Songs/albums can be added to a playlist, replace the current playlist and/or play immediately. \n\n
+        Information about a selected artist can be viewed from here as well.</string>
+</resources>
